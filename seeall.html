@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>See All books</title>
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat|Oswald|PT+Sans|Raleway:400,700i|Roboto+Condensed|Saira+Semi+Condensed|Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<style type="text/css">
+	#mainhead{
+			
+			margin-left: 000px;
+			padding-right: 1500px;
+			margin-top: 10px;
+			padding-top: 5px;
+			margin-bottom: -10px;
+			position: absolute;
+			width: 500px;
+			z-index: 1;
+			
+
+		}
+		#navlinks{
+			
+			margin-right: 1000px;
+			padding-right: 1000px;
+		}
+		#mainhead{
+			
+			margin: -0px;
+			margin-top: 10px;
+			padding: 5px;
+			margin-left: -600px;
+			margin-bottom: -10px;
+			position: absolute;
+			
+
+		}
+		span.tooltiptext{
+			font-family: "PT Sans Narrow", sans-serif;
+			background-color: white;
+			font-size: 20px;
+		}
+		.tooltip{
+			min-height: 100px;
+			min-width: 100px;
+		}
+		.button {
+			 
+			  border-radius: 4px;
+			  background-color: green;
+			  border: none;
+			  color: #FFFFFF;
+			  text-align: center;
+			  font-size: 17px;
+			  padding: 5px;
+			  width: 130px;
+			  transition: all 0.5s;
+			  cursor: pointer;
+			  margin: 0px;
+			  align-self: baseline;
+			}
+
+			.button span {
+			  cursor: pointer;
+			  display: ;
+			  position: relative;
+			  transition: 0.1s;
+			}
+
+			.button span:after {
+			  content: '\00bb';
+			  position: absolute;
+			  opacity: 0;
+			  top: 0;
+			  right: -20px;
+			  transition: 0.5s;
+			}
+
+			.button:hover span {
+			  padding-right: 25px;
+			}
+
+			.button:hover span:after {
+			  opacity: 1;
+			  right: 0;
+			}
+			.list-book{
+				padding-left:  25px;
+				margin-bottom: 10px;
+				padding-top: 5px;
+				font-family: "Source Sans Pro", sans-serif;
+				color: #997979;
+				background-color: #FBFBFB;
+				border: 1.5px solid #EBE9E9;
+
+				border-radius: 30px;	
+
+			}
+			.maincontent{
+				background: transparent;
+				border:none;
+				padding-top: -15px;
+
+
+
+			}
+			.list-book:hover{
+				background-color: #FBFBFB;
+				color: black;
+				width: 100%;
+				
+				
+				
+			}
+			body{
+				background-image: url("images/pencil.jpg");
+			}
+
+</style>
+
+
+</head>
+<body>
+	<div id="mainhead">
+			
+				
+					
+				<div id="navlinks" style="z-index: 1;">
+					
+					<ul><div id="contactus" class="nav"><BUTTON class="btn" onclick="location.href='contactus.html'">Contact Us</BUTTON></div></ul>
+					<ul><div id="aboutus" class="nav"><button class="btn" onclick="location.href='aboutus.html'">About Us</div></ul>
+					
+					<ul><div id="suggestion" class="nav" ><button class="btn" onclick="location.href='suggestion.html' ">Suggest A Book</button></div></ul>
+					<ul><div id="catalog" class="dropdown">   
+						<button class="dropbtn">Catalog</button>
+							<div class="dropdown-content">
+								<button class="cat" onclick="location.href='deld.html'">Deld</button>
+								<button class="cat" onclick="location.href='coming soon.html'">Science</button>
+								<button class="cat" onclick="location.href='programmingg.html'">Programming</button>
+								<button class="cat" onclick="location.href='computer networks.html'">Networking</button>
+								<button class="cat" onclick="location.href='web designing.html'">Web Designing</button>
+								<button class="cat" onclick="location.href='coming soon.html'">Leisure Time</button>
+								<button class="cat" onclick="location.href='seeall.html'">See all</button>
+							</div>
+						</div>
+					</ul>
+					<ul><div ><a href="mainpage.html"><img src="logo.png" alt="logo" id="logo" style="float: left;"></a></div></ul>
+
+						
+				</div>
+			
+	
+		
+	</div>
+	
+	<br><br><br><br><br>
+	<div class="forback">
+	<div class="maincontent">
+		<div class="list-book">
+			
+			<div class="detail"><img src="images/An Introduction to HTML and JavaScript for Scientists and Engineers by David R. Brooks Springer.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px; float: right;"> </div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			This useful book presents HTML and JavaScript in a way that uniquely meets the needs of students in the sciences and engineering. It explains how to create simple, client-side applications for scientific and engineering calculations.
+
+
+
+			</span> 
+			<br><br>
+
+			<div class= "detail1"><p> An Introduction to HTML and JavaScript for Scientists and Engineers<br>
+			 <br>
+			 By-: David R. Brooks Springer <br>
+			 </div>  
+
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+			
+
+		</div>
+		<div class="list-book">
+			
+			<div class="detail"><img src="images\C++ programming DS Malik fifth addition.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			</div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			 In this new fifth edition, author D.S. Malik continues to employ his student-focused, example-based methodology to teach C++ Programming to introductory computing students. Changes to this edition include new debugging sections in each chapter and a multitude of new and updated exercises. 
+
+
+			</span> 
+			<br><br>
+			<div class= "detail1"><p>C++ Programming  fifth addition<br>
+			 <br>
+			 By DS Malik <br>
+			 </p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div>
+		<div class="list-book">
+			
+			<div class="detail"><img src="images\beginning_javascript_5th_edition.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			</div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			This book shows you how to work effectively with JavaScript frameworks, functions, and modern browsers, and teaches more effective coding practices using HTML5.This new edition has been extensively updated to reflect the way JavaScript is most commonly used today.
+
+
+			</span> 
+			<br><br>
+			<div class= "detail1"><p>Beginning Javascript 5th Edition<br>
+			 <br>
+			 By Jeremy McPeak <br>
+			 </p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div>
+		<div class="list-book">
+			
+			<div class="detail"><img src="images\complete reference 4th.jpeg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			</div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			Best-selling genius Herb Schildt covers everything from keywords, syntax, and libraries, to advanced features such as overloading, inheritance, virtual functions, namespaces, templates, and RTTI—plus, a complete description of the Standard Template Library (STL).
+
+
+			</span> 
+			<br><br>
+			<div class= "detail1"><p>Complete Reference 4th Edition<br>
+			 <br>
+			 By Herbert Schildt  <br>
+			 </p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\let us c.png" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			</div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			It is a popular introductory book to the world of C programming. Its simple and approachable style has kept it a popular resource for newbies for many years.It is a great resource from which one can learn C programming. It does not assume any previous knowledge of C or even the basics of programming.
+
+
+			</span>
+			<br><br> 
+			<div class= "detail1"><p>Let Us C<br>
+			<br>
+			 By Yashavant Kanetkar <br>
+			 </p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\Object Oriented Programming With C++ 4th Edition By E Balaguruswamy Free eBook Download.jpeg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			</div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			Object Oriented Programming in C++ is a comprehensive book for undergraduate students of Computer Science Engineering. The book comprises chapters on C++ programming basics, loops and decisions, structures, functions, objects and classes, arrays and strings, operator  overloading, inheritance, pointers, streams and files, object-oriented  software development.
+
+
+			</span> 
+			<br><br>
+			<div class= "detail1"><p>Object Oriented Programming With C++ 4th Edition<br>
+			 <br>
+			 By E Balaguruswamy <br>
+			 </p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\The complete reference C++ 3rd ed herbert.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			</div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			: The Complete Reference is an excellent aid for both amateurs and professionals in the field of programming languages. Readers can expect to find an excellent coverage of topics such as localization functions, algorithms, and AI-based problem solving.
+
+
+			</span>
+			 <br><br>
+			<div class= "detail1"><p>The Complete Reference C++ 3rd Edition<br>
+			 <br>
+			 By Herbert Schildt  <br>
+			 </p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\the complete reference JavaScript third edition Thomas.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			</div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			JavaScript: The Complete Reference, Third Edition provides illustrative examples, line-by-line code samples, and practical development advice—from the core of the language to the various standard and emerging APIs supported by modern web browsers. 
+
+
+			</span> 
+			<br><br>
+			<div class= "detail1"><p>The Complete Reference JavaScript Third Edition<br>
+			 <br>
+			 By Thomas Powell <br>
+			 </p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\Computer networks Weatherall.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			</div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			David Wetherall is a Professor in the Department of Computer Science and Engineering at the University of Washington. He ran Intel's former Seattle research lab on ubiquitous computing from 2006 to 2009 and is an author of Computer Networks, 5th edition.
+
+
+			</span> 
+			<br><br>
+			<div class= "detail1"><p>Computer networks Weatherall<br>
+			 <br>
+			 By David Wetherall <br>
+			 </p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\Data communications and networking fourth addition forouzan.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> </div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			Data Communication And Networking 4/ed 4th Edition is authored by Behrouz A Forouzan. The book is essential for students specializing in Electrical Engineering and Computer Science Engineering.
+
+
+			</span>
+			<br><br> 
+			<div class= "detail1"><p>Data Communications and Networking Fourth Addition<br>
+			 <br>
+			 By Behrouz A Forouzan <br>
+			 </p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\That I am computer communications William stallings 10th ed.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> </div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			It is ideal for one/two-semester courses in Computer Networks, Data Communications, and Communications Networks in CS, CIS, and Electrical Engineering departments. This book is also suitable for Product Development personnel, Programmers, Systems Engineers, Network Designers.
+
+
+			</span>
+			<br><br> 
+			<div class= "detail1"><p>That I am Computer Communications 10th Edition<br>
+			 <br>
+			 By William Stallings <br>
+			</p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\Digital designs third ed morris.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			</div><div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			The book teaches the basic tools for the design of digital circuits in a clear, easily accessible manner. New to This Edition: *Nine sections on Verilog Hardware Description Language (HDL) inserted in discrete sections, allowing the material to be covered or skipped as desired.
+
+			</span>
+			<br><br> 
+			<div class= "detail1"><p>Digital designs third edition<br>
+			 <br>
+			 By Morris M Mano <br>
+			</p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\Digital fundamentals by Floyd 10th ed.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			</div><div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			Digital Fundamentals, Eleventh Edition, continues its long and respected tradition of offering students a strong foundation in the core fundamentals of digital technology, providing basic concepts reinforced by plentiful illustrations, examples, exercises, and applications.
+
+
+			</span> 
+			<br><br>
+			<div class= "detail1"><p>Digital Fundamentals 10th Edition<br>
+			 <br>
+			 By Thomas L. Floyd <br>
+			 </p></div>
+			</div><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\Fundamentals of digital circuits third addition by anand kumar.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> </div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			 It is designed for undergraduate students studying engineering disciplines such as electronics, electronics and communication, electronics and instrumentation, telecommunications, medical electronics, computer science and engineering, electronics, and computers and information technology.
+
+
+			</span> 
+			<br><br>
+			<div class= "detail1"><p>Fundamentals of digital circuits third addition<br>
+			<br>
+			 By Anand Kumar <br>
+			 </p></div>
+			</div>
+			<span style="text-align: right; color: green;" ><br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\Learning PHP MySQL and JavaScript Robin nixon.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			
+			</div><div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			With this popular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS, and HTML5.Explore each technology separately, learn how to use them together, and pick up valuable web programming practices along the way.
+
+
+			</span>
+			<br><br> 
+			<div class= "detail1"><p>Learning PHP MySQL and JavaScript<br>
+			 <br>
+			 By Robin Nixon <br>
+			</p></div>
+			 </div>
+			<br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\Learning web design Jennifer robinns 4th ed.jpeg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			
+			</div><div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			 This friendly guide is the perfect place to start. You’ll begin at square one, learning how the Web and web pages work, and then steadily build from there. By the end of the book, you’ll have the skills to create a simple site with multi-column pages that adapt for mobile devices.
+
+
+			</span> 
+			<br><br>
+			<div class= "detail1"><p>Learning web design 4th edition<br>
+			 <br>
+			 By Jennifer Robinns <br>
+			 </p></div>
+			</div>
+			<br><br>
+			<button class="button"><span>Download </span></button>
+		</div><div class="list-book">
+			
+			<div class="detail"><img src="images\the complete refrence html and css 5thed.jpg" alt="book1" style="height: 250px; width: 180px; padding-right: 20px;"> 
+			</div>
+			<div class="tooltip">	 
+			<span class="tooltiptext">
+
+						  
+			It is a comprehensive book for students who want to learn programming languages. The book comprises of an introduction to CSS and chapters on XHTML and HTML for the students. In addition, there are appendices on colors, fonts and URLs that help in giving a clear understanding of programming language concepts.
+
+
+			</span>
+			<br><br> 
+			<div class= "detail1"><p>the complete refrence html and css 5th ed<br>
+			 <br>
+			 By Thomas A. Powell <br>
+			 </p></div>
+			</div>
+			<br><br>
+			<button class="button"><span>Download </span></button>
+
+		</div>
+
+
+	</div>
+	</div>
+	<div class="footer" style="width: 100%; background-color:  #414141;">
+		<p id="image"><img src="logo.png" class="flogo"></p>
+		
+		<p style="color: grey; padding-left: 50px;" class="flink">© Copyright 2017 </p>
+		<p class="flink"><a href="#" style="color: grey; padding-left: 150px; ">About Us</a></p>
+		<p class="flink" ><a href="#" style="color: grey; padding-left: 50px;">Donate</a></p>
+		<!--<p class="links">
+			<div class="blogo"><img src="logo.png" alt="logo" class="flogo"></div>
+			Copyright. 2017         
+			<a href="#" style="color: white;">   About Us   </a>
+			<a href="#" style="color: white;">   Donate   </a>
+
+		</p>  -->
+		
+	</div>
+
+</body>
+</html>

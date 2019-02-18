@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drop a Suggestion</title>
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat|Oswald|PT+Sans|Raleway:400,700i|Roboto+Condensed|Saira+Semi+Condensed|Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		#main{
+			margin-left: 10px;
+			height:600px;
+			padding-top:110px;
+			padding-bottom:10px;
+		}
+		#main1{
+			margin-left:100px;
+		}
+		.myForm {
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 0.8em;
+		width: 25em;
+		padding: 1em;
+		}
+		
+
+
+.myForm * {
+	border:0px;
+	height:auto;
+}
+
+.myForm label {
+padding: 0;
+font-weight: bold;
+}
+
+.myForm input {
+
+
+font-family: "Open Sans", "Lucida Grande", sans-serif;
+font-size: 0.9em;
+padding: 0.5em;
+
+
+}
+
+.myForm input[type="email"],
+.myForm input[type="text"] {
+width: 12em;
+}
+
+.myForm input[type="submit"] {
+padding: 0.7em;
+border-radius: 0.5em;
+background: #eee;
+border: none;
+font-weight: bold;
+padding:1em;
+}
+
+.myForm input[type="submit"]:hover {
+background: #ccc;
+cursor: pointer;
+}
+		form{
+			text-align: left;
+			padding-top:150px;
+			min-width:600px;
+			padding-left:50px;
+			font-size:25px;
+		}
+		input{
+			height:30px;
+			width:300px;
+			border-radius:2px;
+			border-style:groove;
+			font-size:20px;
+			font-family
+		}
+
+		p{
+			text-align: center;
+		}
+		.button {
+    		background-color: #4CAF50;
+    		border: none;
+    		margin-bottom:150px;
+    		margin-left:100px;
+    		color: white;
+    		padding: 15px 32px;
+    		text-decoration: none;
+    		display: inline-block;
+    		font-size: 16px;
+    		margin: 4px 2px;
+    		cursor: pointer;
+		}
+		.btn1{
+			
+			font-family: "PT Sans", sans-serif;
+		    color: black;
+		    padding: 10px;
+		    font-size: 20px;
+		    border: none;
+		    border-top: 5px solid white;
+		    cursor: pointer;
+		    background-color: Transparent;
+		    background-repeat:no-repeat;
+		    
+		    cursor:pointer;
+		    overflow: hidden;
+		    outline:none;
+		}
+		.btn1:hover{
+			margin: 0px;
+			border-top: 5px #00BFFF;
+			overflow: hidden;
+			color: #00BFFF;
+		}
+				input[type=text] {
+			width:130px;
+			box-sizing:border-box;
+			border:1px solid black;
+			border-radius:5px;
+			font-size:16px;
+			background-color:white;
+
+		}
+		body{
+			background-repeat: no-repeat;
+			background-size: cover;		
+		}
+		label{
+			color:white;
+			font-size:18px;
+		}
+		select{
+			size:15px;
+		}
+		#mainhead{
+			
+			margin: -0px;
+			margin-top: 10px;
+			padding: 5px;
+			margin-left: -600px;
+			margin-bottom: -10px;
+			position: absolute;
+			
+
+		}
+		#navlinks{
+			
+			margin-right: 1000px;
+			padding-right: 1000px;
+		}
+		.main{
+			padding-left: 150px;
+		}
+	</style>
+</head>
+<body background="suggestion123.jpg" style="align-content: center;">
+	<div id="mainhead">
+			
+				
+					
+				<div id="navlinks">
+					
+					<ul><div id="suggestion" class="nav" ><button class="btn" onclick="location.href='suggestion.html' ">Suggestion</button></div></ul>
+					<ul><div id="aboutus" class="nav"><button class="btn" onclick="location.href='aboutus.html'">About Us</div></ul>
+					<ul><div id="contactus" class="nav"><BUTTON class="btn" onclick="location.href='contactus.html'">Contact Us</BUTTON></div></ul>
+					<ul><div id="catalog" class="dropdown">   
+						<button class="dropbtn">Catalog</button>
+							<div class="dropdown-content">
+								<button class="cat" onclick="location.href='deld.html'">Electronics</button>
+								<button class="cat" onclick="location.href='coming soon.html'">Science</button>
+								<button class="cat" onclick="location.href='programmingg.html'">Programming</button>
+								<button class="cat" onclick="location.href='computer networks.html'">Networking</button>
+								<button class="cat" onclick="location.href='web designingng.html'">Web Designing</button>
+								<button class="cat" onclick="location.href='coming soon.html'">Leisure Time</button>
+								<button class="cat" onclick="location.href='seeall.html'">See all</button>
+							</div>
+						</div>
+					</ul>
+					<ul><div ><a href="mainpage.html"><img src="logo.png" alt="logo" id="logo"></a></div></ul>
+						
+				</div>
+			
+	
+		
+</div>
+<div id="main">
+<label>
+<strong style="font-size:35px; margin-left:600px;"">Suggestions</strong></label>
+<div id="main1">
+<br>
+<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+<p>
+<label style="margin-left:-210px;">Name &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<input type="text" style="width:12em; float:right padding-left:10px;" name="first_name" required> 
+<input type="text" style="width:12em; float:right padding-left:-10px;" name="last_name" required>
+</label>
+<br>
+<br>
+<br>
+<label style="margin-left:-400px;">Email 
+<input type="text" style="width:18em;float:right" name="user_email" required>
+</label> 
+<br>
+<br>
+<br>
+<label style="margin-left:-350px;">Book Name
+<input type="text" style="width:18em;float:right" name="user_book" required>
+</label>
+<br>
+<br>
+<br>
+<label style="margin-left:-330px;">Author Name
+<input type="text" style="width:18em;float:right" name="user_author">
+</label>
+<br>
+<br>
+<br>
+<label style="margin-left:-490px;">Book Category
+
+<select>
+<option value="">select</option>
+<option value="programming">Programming</option>
+<option value="networks">Networking</option>
+<option value="digital electronics">Digital Electronics</option>
+<option value="web designing">Web Designing</option>
+<option value="leisure">Leisure</option>
+</select>
+<br>
+<br>
+<br>
+<input type="submit" value="Submit">
+</p>
+</form>
+</div>
+</div>
+</body>
+</html>

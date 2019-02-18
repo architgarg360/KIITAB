@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<title>Welcome to Kitaab</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat|Oswald|PT+Sans|Raleway:400,700i|Roboto+Condensed|Saira+Semi+Condensed|Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.w3-content{
+			
+			margin:auto
+			align-content: left;
+			z-index: 0;
+
+		}
+		.w3-section{
+			z-index: 0;
+			position:;
+			
+		    }
+		.w3-animate-left{
+			
+		    animation:animateleft 0.8s
+		}
+		    @keyframes animateleft{
+		    from{left:-300px;opacity:0} to{left:0;opacity:1}
+		    }
+		.mySlides{
+			display:none;
+		}
+		#mainhead{
+			
+			margin: -0px;
+			margin-top: 10px;
+			padding: 5px;
+			margin-bottom: -10px;
+			position: absolute;
+			
+
+		}
+		.content{
+
+			width: 1200px;
+			margin-left: 150px;
+			margin-right: 200px;
+			background-color: ;
+			padding-top: 450px;
+			margin-top: 50px;
+			border-top-left-radius: 100px;
+			padding-left: 15px;
+			border-bottom-left-radius: 20px;
+			border-bottom-right-radius: 20px;
+		}
+		a#suggest{
+			text-decoration: none;
+			color: #055864;
+		}
+		a#suggest:hover{
+			color: green;
+		}
+		#head{
+			color: grey;
+			font-family: "Lato", sans-serif;
+			font-size: 30px;
+		}
+		.content:hover #head{
+			text-decoration: none;
+			color: grey;
+		}
+		.content:hover .topbook{
+			border: 1px solid white;
+		}
+		html{
+			align-content: center;
+		}
+		.nav{
+			padding-right: 170px;
+		}
+		.image2{
+			padding-left: 500px;
+			margin-top: 600px; 
+			background-color: white;
+		}
+		.button {
+			  display: none;
+			  border-radius: 4px;
+			  background-color: green;
+			  border: none;
+			  color: #FFFFFF;
+			  text-align: center;
+			  font-size: 17px;
+			  padding: 5px;
+			  width: 130px;
+			  transition: all 0.5s;
+			  cursor: pointer;
+			  margin: 0px;
+			  align-self: baseline;
+			}
+
+			.button span {
+			  cursor: pointer;
+			  display: ;
+			  position: relative;
+			  transition: 0.1s;
+			}
+
+			.button span:after {
+			  content: '\00bb';
+			  position: absolute;
+			  opacity: 0;
+			  top: 0;
+			  right: -20px;
+			  transition: 0.5s;
+			}
+
+			.button:hover span {
+			  padding-right: 25px;
+			}
+
+			.button:hover span:after {
+			  opacity: 1;
+			  right: 0;
+			}
+
+	</style>	
+
+
+</head>
+<body bgcolor="black"> <!-- #D1D1D0 -->
+	<div id="mainhead">
+			
+				
+					
+				<div id="navlinks" style="z-index: 1;">
+					
+					<ul><div id="contactus" class="nav"><BUTTON class="btn" onclick="location.href='contactus.html'">Contact Us</BUTTON></div></ul>
+					<ul><div id="aboutus" class="nav"><button class="btn" onclick="location.href='aboutus.html'">About Us</div></ul>
+					
+					<ul><div id="suggestion" class="nav" ><button class="btn" onclick="location.href='suggestion.html' ">Suggest A Book</button></div></ul>
+					<ul><div id="catalog" class="dropdown">   
+						<button class="dropbtn">Catalog</button>
+							<div class="dropdown-content">
+								<button class="cat" onclick="location.href='deld.html'">Electronics</button>
+								<button class="cat" onclick="location.href='coming soon.html'">Science</button>
+								<button class="cat" onclick="location.href='Programming.html'">Programming</button>
+								<button class="cat" onclick="location.href='computer networks.html'">Networking</button>
+								<button class="cat" onclick="location.href='web designing.html'">Web Designing</button>
+								<button class="cat" onclick="location.href='coming soon.html'">Leisure Time</button>
+								<button class="cat" onclick="location.href='seeall.html'">See all</button>
+							</div>
+						</div>
+					</ul>
+					<ul><div ><a href="mainpage.html"><img src="logo.png" alt="logo" id="logo"></a></div></ul>
+						
+				</div>
+			
+	
+		
+	</div>
+	 <!--<div>
+		<img id="big-image" src="library-31.jpg" >
+	</div> -->
+	<div class="w3-content w3-section" style="padding-top: 80px;">
+		  	<img class="mySlides w3-animate-left" src="images/library-31.jpg" style="height: 540px; width: 1536px; float: left;">
+	  		<img class="mySlides w3-animate-left" src="images/library-5.jpg" style="height: 540px; width: 1536px;">
+	  		<img class="mySlides w3-animate-left" src="images/library-41.jpg" style="height: 540px; width: 1536px;">
+	  		
+	  		<img class="mySlides w3-animate-left" src="images/library-2.jpg" style="height: 540px; width: 1536px;">
+	  		<img class="mySlides w3-animate-left" src="images/library-7.jpg" style="height: 540px; width: 1536px;">
+
+	  
+	</div>
+	<div class="image2">
+		<img src="images/bimage.jpg" style="border: 1px double; padding: 4px;">
+	</div>
+	
+	<div class="content">
+
+	<p style="padding-top: 350px;" id="head"> Top Trending books<span style="text-align: right; font-size: 15px; font-family:'PT Sans', sans-serif; padding-left: 830px; "><a href="seeall.html">See All></a></span></p>
+
+	<div id="topbooks">
+		
+		<div class="insidebook">
+			<div><img src="images/An Introduction to HTML and JavaScript for Scientists and Engineers by David R. Brooks Springer.jpg" alt="book1" class="ibook">
+			</div>
+
+			<div><p class="tbook" style="color: grey;"> An Introduction to HTML and JavaScript for Scientists and Engineers by David R. Brooks Springer </p></div>
+			<div><button class="button" onclick="location.href='123.pdf'"><span>Download </span></button></div>
+		</div>
+		<div class="insidebook">
+			<img src="images/Digital fundamentals by Floyd 10th ed.jpg" alt="book1" class="ibook">
+			<p class="tbook" style="color: grey;">Digital fundamentals by Floyd 10th Edition</p>
+			<div><button class="button" onclick="location.href='Digital Fundamentals by Thomas L. Floyd 9th ED Pearson Prentice Hall_2.pdf'"><span>Download </span></button></div>
+		</div>
+		<div class="insidebook">
+			<img src="images/The complete reference C++ 3rd ed herbert.jpg" alt="book1" class="ibook">
+			<p class="tbook" style="color: grey;">The Complete Reference C++ 3rd Edition<br> By Herbert</p>
+			<div><button class="button" onclick="location.href='Complete Reference C++ 3rd Ed.pdf'"><span>Download </span></button></div>
+		</div>
+		<div class="insidebook">
+			<img src="images/Digital fundamentals by Floyd 10th ed.jpg" alt="book1" class="ibook">
+			<p class="tbook" style="color: grey;">Digital fundamentals by Floyd 10th Edition</p>
+			<div><button class="button" onclick="location.href='Digital Fundamentals by Thomas L. Floyd 9th ED Pearson Prentice Hall_2.pdf'"><span>Download </span></button></div>
+		</div>
+		<div class="insidebook">
+			<img src="images/Digital fundamentals by Floyd 10th ed.jpg" alt="book1" class="ibook">
+			<p class="tbook">Digital fundamentals by Floyd 10th Edition</p>
+			<div><button class="button" onclick="location.href='Digital Fundamentals by Thomas L. Floyd 9th ED Pearson Prentice Hall_2.pdf'"><span>Download </span></button></div>
+		</div>
+		<div class="insidebook">
+			<img src="images/Digital fundamentals by Floyd 10th ed.jpg" alt="book1" class="ibook">
+			<p class="tbook">Digital fundamentals by Floyd 10th Edition</p>
+			<div><button class="button" onclick="location.href='Digital Fundamentals by Thomas L. Floyd 9th ED Pearson Prentice Hall_2.pdf'"><span>Download </span></button></div>
+		</div>
+		<div class="insidebook">
+			<img src="images/Digital fundamentals by Floyd 10th ed.jpg" alt="book1" class="ibook">
+			<p class="tbook">Digital fundamentals by Floyd 10th Edition</p>
+			<div><button class="button"><span>Download </span></button></div>
+		</div>
+		<div class="insidebook">
+			<img src="images/Digital fundamentals by Floyd 10th ed.jpg" alt="book1" class="ibook">
+			<p class="tbook">Digital fundamentals by Floyd 10th Edition</p>
+			<div><button class="button"><span>Download </span></button></div>
+		</div>
+		<div class="insidebook">
+			<img src="images/Digital fundamentals by Floyd 10th ed.jpg" alt="book1" class="ibook">
+			<p class="tbook">Digital fundamentals by Floyd 10th Edition</p>
+			<div><button class="button"><span>Download </span></button></div>
+		</div>
+		
+		
+		
+	</div>
+	<!--
+	<hr>
+	<p id="head"> Top Programming Books<span style="text-align: right; font-size: 15px; font-family:'PT Sans', sans-serif; padding-left: 750px; "><a href="#">See All></a></span></p>
+	<div id="topbooks">
+		<div class="insidebook">
+			<img src="The complete reference C++ 3rd ed herbert.jpg" alt="book1" class="ibook">
+			<p class="tbook">The Complete Reference C++ 3rd Edition<br> By Herbert</p>
+			<p class="dwnld">Download</p>
+		</div>
+		<div class="insidebook">
+			<img src="Let Us C Pdf By Yashwant Kanetkar Free Download.png" alt="book1" class="ibook">
+			<p class="tbook" style="padding-left: -5px;">Let Us C By Yashwant Kanetkar<br></p>
+			<p class="dwnld">Download</p>
+		</div>
+		<div class="insidebook">
+			<img src="C++ programming DS Malik fifth addition.jpg" alt="book1" class="ibook">
+			<p class="tbook">C++ programming By DS Malik Fifth Edition</p>
+			<p class="dwnld">Download</p>
+		</div>
+		
+		
+		
+	</div>
+	<hr>
+	<p  id="head"> Top Web Designing Books <span style="text-align: right; font-size: 15px; font-family:'PT Sans', sans-serif; padding-left: 750px; "><a href="#">See All></a></span></p>
+	<div id="topbooks">
+		<div class="insidebook">
+			<img src="An Introduction to HTML and JavaScript for Scientists and Engineers by David R. Brooks Springer.jpg" alt="book1" class="ibook" style="align-items: center;">
+			
+
+			<p class="tbook"> An Introduction to HTML and JavaScript for Scientists and Engineers by David R. Brooks Springer     </p>
+			<p class="dwnld">Download</p>
+		</div>
+		<div class="insidebook">
+			<img src="beginning_javascript_5th_edition.jpg" alt="book1" class="ibook">
+			<p class="tbook">Beginning Javascript 5th edition</p>
+			<p class="dwnld">Download</p>
+		</div>
+		<div class="insidebook">
+			<img src="Learning PHP MySQL and JavaScript Robin nixon.jpg" alt="book1" class="ibook">
+			<p class="tbook">Learning PHP MySQL and JavaScript <br> By Robin Nixon</p>
+			<p class="dwnld">Download</p>
+		</div>		
+		
+	</div>
+	</div> -->
+	<div class="booknotfound">
+		<span style="font-size:40px; text-align: center;font-family: 'PT Sans', sans-serif; color: white; "><p>Can't find the book looking for?</p></span>
+		<span style="font-size:40px; text-align: center;font-family: 'PT Sans', sans-serif; color: white;"><p>We love suggestions.</p></span>
+
+		<span style="font-size:40px; text-align: center; font-family: 'PT Sans', sans-serif;"><p><a href="suggestion.html" id="suggest" >Suggest a book</a></p></span>
+	</div>
+	
+	<div class="footer" style="width: 100%; background-color:  #414141;">
+		<p id="image"><img src="logo.png" class="flogo"></p>
+		
+		<p style="color: grey; padding-left: 50px;" class="flink">© Copyright 2017 </p>
+		<p class="flink"><a href="aboutus.html" style="color: grey; padding-left: 150px; ">About Us</a></p>
+		<p class="flink" ><a href="" style="color: grey; padding-left: 50px;">Donate</a></p>
+		<!--<p class="links">
+			<div class="blogo"><img src="logo.png" alt="logo" class="flogo"></div>
+			Copyright. 2017         
+			<a href="#" style="color: white;">   About Us   </a>
+			<a href="#" style="color: white;">   Donate   </a>
+
+		</p>  -->
+		
+	</div>
+
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel(){
+	    var i;
+	    var x = document.getElementsByClassName("mySlides");
+	    for (i = 0; i < x.length; i++) {
+	      x[i].style.display = "none";  
+	    }
+	    myIndex++;
+	    if (myIndex > x.length) {myIndex = 1}    
+	    x[myIndex-1].style.display = "block";  
+	    setTimeout(carousel, 2500);    
+	}
+	</script>
+
+</body>
+</html>

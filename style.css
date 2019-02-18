@@ -1,0 +1,374 @@
+		#mainhead{
+			background:fixed;
+			margin: -0px;
+			padding: 15px;
+			top: ;
+			width: 1600px;
+			border: 5px solid white;
+			background-color: white;
+			position: fixed;
+			height: 50px;
+
+		}
+		
+		.dropbtn {
+		    background-color: none;
+		    color: grey;
+		    padding: 10px;
+		    font-size: 20px;
+		    
+		    cursor: pointer;
+		    background-color: Transparent;
+		    background-repeat:no-repeat;
+		    border: none;
+		    border-top: 5px solid white;
+		    cursor:pointer;
+		    overflow: hidden;
+		    outline:none;
+		    font-family: "PT Sans", sans-serif;
+		    transition: all 0.5s;
+
+		}
+		.dropbtn:hover{
+			margin: 0px;
+			border-top: 5px solid blue;
+			border-spacing: 0px;
+			overflow: hidden;
+			color: blue;
+			transition: all 0.5s;
+		}
+		.dropdown {
+		    position: relative;
+		    transition: all 0.5s;
+		    float: top;
+		}
+		.dropdown-content {
+		    display: none;
+		    position: absolute;
+		    background-color: white;
+		    font-size: 25px;
+		    color: ;
+		    max-width: 180px;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		    z-index: 1;
+		    font-family: "Oswald", sans-serif;
+		    transition: all 0.5s;
+		}
+		.dropdown:hover .dropdown-content {
+   			 display: block;
+   			 color: orange;
+   			 font-family: "Oswald", sans-serif;
+   			 font-size: 25px;
+   			 overflow-y: hidden;
+   			 transition: all 20.0s;
+		}
+		#logo{
+			height: 70px;
+			width: 160px;
+			background: transparent;
+		}
+		.btn{
+			
+			font-family: "PT Sans", sans-serif;
+		    color: grey;
+		    padding: 10px;
+		    font-size: 20px;
+		    border: none;
+		    border-top: 5px solid white;
+		    cursor: pointer;
+		    background-color: Transparent;
+		    background-repeat:no-repeat;
+		    
+		    cursor:pointer;
+		    overflow: hidden;
+		    outline:none;
+		}
+		.btn:hover{
+			margin: 0px;
+			border-top: 5px solid blue;
+			overflow: hidden;
+			color: blue;
+			transition: all 2.0s;
+			
+   			 
+		}
+		
+		#navlinks{
+			
+			width: 100%;
+			
+			padding-top: -20px;
+			margin-top: -5px;
+			padding-left: -200px;
+			background-color: white;
+			border-collapse: collapse;
+			position: fixed;
+			height: 65px;
+		
+			position: fixed;
+			float: left;
+		
+			
+
+
+		}
+		#nav {
+			text-align: right;
+		}
+		ul{
+			float: right;
+			margin-top: 0px;
+			margin-right: 25px;
+			padding: -100px;
+		}
+		body{
+		 	margin-top: -15px;
+		 	margin-left: -10px;
+		 	margin-right: -10px;
+		 	overflow-x: hidden;
+
+
+		}
+		#big-image{
+			height: 400px;
+			width: 1600px;
+			margin-left: -50px;
+			
+		}
+		.cat{
+			font-family: "PT Sans", sans-serif;
+		    color: black;
+		    padding: 10px;
+		    font-size: 15px;
+		    border: none;
+		    min-width: 150px;
+		    cursor: pointer;
+		    background-color: Transparent;
+		    background-repeat:no-repeat;
+		    border: none;
+		    cursor:pointer;
+		    overflow: hidden;
+		    outline:none;
+		    border-bottom: 1px solid white;
+		    border-left: 3px solid white;
+		    text-align: left;
+
+		}
+		.cat:hover{
+			border-left: 3px solid blue;
+			color: blue;
+		}
+		
+		#topbooks{
+    		
+			height: 350px;
+			width: auto;
+			padding: 2px;
+			overflow-x: hidden;
+			overflow-y: hidden;
+			
+
+			
+
+			
+		}
+		.insidebook{
+			
+			margin-left: 0px;
+			margin-top: 0px;
+			padding: 5px;
+			
+			
+			
+			max-width: 270px;
+			height: 400px;
+			overflow-y: scroll;
+			overflow-x: hidden; 
+			overflow: hidden;	
+			float: left;
+			
+			
+
+		}
+		.insidebook:hover .button{
+			display: block;
+		}
+		.insidebook:hover{
+			border: 3px solid white;
+
+		}
+		/*
+		.insidebook:hover .tbook{
+			font-size: 20px;
+		}
+		.insidebook:hover .ibook{
+			height: 250px;
+			width: 180px;
+		}
+		*/
+		.ibook{
+			height: 200px;
+			width: 150px;
+			
+
+		
+		}
+		.tbook{
+			float: right;
+			font-size: 17px;
+			font-family: "Raleway",sans-serif;
+			font-style: bold;
+
+		}
+		.dwnld{
+			background: transparent;
+			border: none;
+			color: black;
+			border-style: none;
+			cursor: pointer;
+			font-size: 20px;
+			font-family: "PT Sans", sans-serif;
+			text-align: center;
+			padding-top: 50px;
+
+		}
+		.dwnld:hover{
+			
+			text-decoration: underline;
+			border: none;
+			color: green;
+			
+			cursor: pointer;
+			font-size: 20px;
+
+		}
+		.footer{
+			height: 40px;
+			width: 100%;
+			background-color: #414141;
+			border-top: 2px;
+			border-top-style: groove;
+			align-content: center;
+			padding-left: 0px;
+			padding-bottom: 40px;
+			margin-bottom: 00px;
+			float:left;
+			padding-left: 500px;
+			margin-left: -200px;
+		}
+		
+		a:visited, a:active, a:link{
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+		.links{
+			color:white;
+			font-family: "Roboto", sans-serif;
+		}
+		
+		a#suggest{
+			text-decoration: none;
+			color: blue;
+		}
+		
+
+
+
+		.maincontent{
+			margin-left: 200px;
+			margin-right: 200px;
+			height: auto;
+			border: 1px solid black;
+			color: white;
+			font-size: 20px;
+			font-family: "Oswald", sans-serif;
+			padding-left: 10px;
+			background-color: #D1D1D0;
+			
+		}	
+		.list-book{
+			max-width: 1000px;
+			min-height: 300px;
+			overflow: ;
+			border-bottom: 5px solid white;
+			margin-left: 20px;
+
+		}
+		img{
+			float: left;
+			height: auto;
+			width: auto;
+		}	
+		.title{
+			float: right;
+		}
+		.detail{
+			float: right;
+		}
+		.forback{
+			
+
+		}
+	.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    min-width:250px;
+    background-color: ;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+	opacity: 1;
+	font-family: "PT Sans", sans-serif;
+}
+
+
+		
+		.flogo{
+			height: 50px;
+			width: 150px;
+			margin-bottom: 0px;
+			padding-top: -5px;
+
+		}
+		.flink{
+			display: inline;
+			color: white;
+			padding-top: 0px;
+			padding-bottom: 5px;
+			font-family: "PT Sans", sans-serif;
+		}
+		a.flink{
+			color: white;
+		}
+		a.flink:visited{
+			color: white;
+		}
+		a.flink:link{
+			color:white;
+		}
