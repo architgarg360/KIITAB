@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+.myForm {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.8em;
+width: 25em;
+padding: 1em;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+
+
+.myForm * {
+box-sizing: border-box;
+}
+
+.myForm label {
+padding: 0;
+font-weight: bold;
+}
+
+.myForm input {
+border: 1px solid #ccc;
+border-radius: 3px;
+font-family: "Open Sans", "Lucida Grande", sans-serif;
+font-size: 0.9em;
+padding: 0.5em;
+
+
+}
+
+.myForm input[type="email"],
+.myForm input[type="text"] {
+width: 12em;
+}
+
+.myForm input[type="submit"] {
+padding: 0.7em;
+border-radius: 0.5em;
+background: #eee;
+border: none;
+font-weight: bold;
+padding:1em;
+}
+
+.myForm input[type="submit"]:hover {
+background: #ccc;
+cursor: pointer;
+}
+</style>
+
+</head>
+<body>
+
+<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>Name
+<input type="text" style="width:12em;" name="first_name" required placeholder="Enter first name ">
+</label> 
+
+<label> 
+<input type="text" style="width:12em;float:right" name="last_name" required placeholder="Enter last name ">
+</label> 
+<br>
+<br>
+<label>Email 
+<input type="email" style="width:18em;float:right" name="user_email" required>
+</label> 
+<br>
+<br>
+<label>Book Name
+<input type="text" style="width:18em;float:right" name="user_book" required>
+</label>
+<br>
+<br>
+<label>Author Name
+<input type="text" style="width:18em;float:right" name="user_author">
+</label>
+<br>
+<br>
+<label>book category
+ <input list="categories" style="width:18em;float:right" name="categories">
+  <datalist id="categories">
+    <option value="programming">
+    <option value="networks">
+    <option value="digital electronics">
+    <option value="web designing">
+    <option value="leisure">
+  </datalist>
+  <br>
+  <br>
+<input type="submit" value="Submit"/>
+</p>
+
+
+
+</form>
+
+</body>
+</html>
+</form> 
+
+</body>
+</html>
